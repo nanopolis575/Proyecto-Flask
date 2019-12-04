@@ -1,0 +1,62 @@
+[
+    {
+      "name": "Anastasia",
+      "puntaje": 12.5,
+      "intentos": 1,
+      "califica": "yes"
+    },
+    {
+      "name": "Dima",
+      "puntaje": 9,
+      "intentos": 3,
+      "califica": "no"
+    },
+    {
+      "name": "Katherine",
+      "puntaje": 16.5,
+      "intentos": 2,
+      "califica": "yes"
+    },
+    {
+      "name": "James",
+      "puntaje": 0,
+      "intentos": 3,
+      "califica": "no"
+    },
+    {
+      "name": "Emily",
+      "puntaje": 9,
+      "intentos": 2,
+      "califica": "no"
+    },
+    {
+      "name": "Michael",
+      "puntaje": 20,
+      "intentos": 3,
+      "califica": "yes"
+    },
+    {
+      "name": "Matthew",
+      "puntaje": 14.5,
+      "intentos": 1,
+      "califica": "yes"
+    },
+    {
+      "name": "Laura",
+      "puntaje": 0,
+      "intentos": 1,
+      "califica": "no"
+    },
+    {
+      "name": "Kevin",
+      "puntaje": 8,
+      "intentos": 2,
+      "califica": "no"
+    },
+    {
+      "name": "Jonas",
+      "puntaje": 19,
+      "intentos": 1,
+      "califica": "yes"
+    }
+  ]

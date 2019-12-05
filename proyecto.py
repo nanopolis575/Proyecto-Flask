@@ -1,4 +1,4 @@
-from flask import Flask,render_template
+from flask import Flask,render_template, session, redirect
 import pygal
 from pygal.style import Style
 import json
@@ -12,10 +12,15 @@ custom_style = Style(
         )
 
 
-@app.route("/")
-def hello():
-    df = pd.read_csv("datos.csv")
-    return df.to_html()
+#@app.route("/")
+#def hello():
+#    return render_template("index.html")
+
+df = pd.read_csv("datos.csv")
+
+@app.route("/",methods=("POST", "GET"))
+def html_table():
+    return  render_template('index.html',  tables=[df.to_html(classes='data')], titles=df.columns.values)
 # -------------------------------------------
 # Charting route which displays the bar chart
 # -------------------------------------------
